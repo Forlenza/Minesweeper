@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+#head {
+  @import url("https://fonts.googleapis.com/css?family=Berkshire+Swash");
+}
+#head h1 {
+  text-align: center;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.cell {
+  border: 2px solid #fff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 2em;
+  background-color: #BDBDBD;
+}
+
+.cell:hover {
+  background-color: #616161;
+}
+
+#gameWin, #gameOver {
+  display: none;
+}
+
+#legend {
+  float: left;
+  width: 5%;
+  margin-top: -20%;
+}
+
+.red {
+  position: absolute;
+  background-color: red;
+  width: 1%;
+  height: 3%;
+}
+
+#legend h6 {
+  position: relative;
+}
+
+.blue {
+  position: absolute;
+  background-color: blue;
+  width: 1%;
+  height: 3%;
+}
+
+.green {
+  position: absolute;
+  background-color: green;
+  width: 1%;
+  height: 3%;
+}
+
+.blue {
+  position: absolute;
+  background-color: blue;
+  width: 1%;
+  height: 3%;
+}
+
+.yellow {
+  position: absolute;
+  background-color: yellow;
+  width: 1%;
+  height: 3%;
+}
+
+.btn {
+  color: black;
+}

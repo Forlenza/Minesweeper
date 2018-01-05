@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Minesweeper</title>
+  
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+<body>
+    <div id='head'>
+        <h1>MineSweeper game </h1>
+    </div>
+    <div class="container">
+        <table id='board' border=1>
+
+        </table>
+    </div>
+    <div id="gameOver">
+        <center>
+            <h3>Game Over</h3>
+        </center>
+    </div>
+    <div id="gameWin">
+        <center>
+            <h3>You Won</h3>
+        </center>
+    </div>
+    <div id="restart">
+        <center>
+            <button class='btn' onclick="restart()">Restart</button>
+        </center>
+    </div>
+    <div id='legend'>
+        <div class='red'></div><br><h4> is a mine</h4><br>
+        <div class='blue'></div><br><h4> is a flag</h4><br>
+        <div class='green'></div><br><h4> is an Open Cell</h4><br>
+        <div class='yellow'></div><br><h4> is a Mine you predicted right</h4>
+    </div>
+</body>
+<script  src="js/index.js"></script>
+</html>
